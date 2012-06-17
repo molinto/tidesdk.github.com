@@ -4,7 +4,7 @@ title: "Progress Report 1 - June 10"
 date: 2012-06-17 17:23
 comments: true
 categories: progress
-author David Pratt
+author: David Pratt
 ---
 
 This is first public post on progress. With the blessing of Boydlee, I have assumed the Project Lead position. You will find me at https://github.com/fairwinds. After some delay, TideSDK is moving forward in a positive way with the code and also with the full support of the initiative from Appcelerator through Kevin Whinnery.
