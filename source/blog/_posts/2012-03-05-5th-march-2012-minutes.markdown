@@ -4,7 +4,7 @@ title: "5th March 2012 Minutes"
 date: 2012-03-05 14:44
 comments: true
 categories: minutes
-author: Boydlee
+author: Sharry Stowell
 ---
 
 ## Tide SDK Leadership Group Meeting - Agenda
@@ -57,3 +57,6 @@ in package manager. Most of the group seems in favour of Node.JS with a bit of e
 ### Date of the Next Meeting
 
 * Monday, 12th of March. 2012
+
+
+[Download Minutes PDF (~70K)](http://tidesdk.github.com/downloads/TideSDK-Minutes-05032012.pdf)

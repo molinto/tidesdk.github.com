@@ -3,7 +3,8 @@ layout: post
 title: "What's Happening? - 10th April"
 date: 2012-04-10 16:49
 comments: true
-categories: Boydlee Pollentine
+categories: update
+author: Boydlee Pollentine
 ---
 
 Hi Everyone,

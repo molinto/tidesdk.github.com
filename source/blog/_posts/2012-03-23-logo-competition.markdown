@@ -4,7 +4,7 @@ title: "Logo Competition"
 date: 2012-03-23 15:50
 comments: true
 categories: contest
-author: Boydlee
+author: Sharry Stowell
 ---
 
 ## A New Brand
