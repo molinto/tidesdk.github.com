@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>What's Happening? - 10th April - TideSDK</title>
+  <meta name="author" content="David Pratt (for TideSDK)">
+
+  
+  <meta name="description" content="Hi Everyone, I know that many of you have been asking on the Google Transition group as to what is happening currently on the TideSDK (nee Titanium &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://TideSDK.github.com/blog/2012/04/10/whats-happening-10th-april/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="TideSDK" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">TideSDK</a></h1>
+  
+    <h2>The new home of Titanium Desktop ...</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:TideSDK.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Home</a></li>  
+  <li><a href="/blog/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">What's Happening? - 10th April</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-10T16:49:00-03:00" pubdate data-updated="true">Apr 10<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Hi Everyone,</p>
+
+<p>I know that many of you have been asking on the Google Transition group as to what is happening currently on the TideSDK (nee Titanium Desktop) front. Apologies for not being able to clearly state where we are at before, but I&#8217;m sure you can appreciate that there is a lot of things to take over from Appcelerator, and many decisions to be made regarding TideSDK moving forward.</p>
+
+<p>Here&#8217;s the major points we are currently working on:</p>
+
+<p>We&#8217;ve requested Jira Access and all the Q&amp;A data relating to Titanium Desktop from Appcelerator. Once we have this access/data, we will start filtering all the bug list in order of priority and we will be asking you, the community, to step forward and help us fix these issues.</p>
+
+<p>The current branch of Titanium Desktop is available here https://github.com/TideSDK/titanium_desktop. Please feel free to fork this repo, and make bug fixes now in preparation for when we have the Jira data. We&#8217;ll be trying to keep the process of merging your changes as seamless as possible - that means simply you fork the code, make the change in your own repo, and create a pull request for us listing the Jira Bug ID and what you did to fix it. We don&#8217;t have the manpower to bug-test every single pull request, so we&#8217;ll be relying on the community to do that thoroughly during any release cycle.</p>
+
+<p>About half of the team are currently investigating how to get the WebKit upgraded (particularly on Windows) as a matter of priority. If you want to help with this, please comment on this post and I&#8217;ll get you in touch with Burak and a couple of the guys who are leading that.</p>
+
+<p>The rest of us are currently looking into building a prototype of how we see TideSDK evolving into a new product in the future. Basically, after looking through many, many options, this is revolving around the use of Chromeless, coupled with NodeJS. This is going well for a prototype investigation stage and we already have a sample application (just hanging off Webian, a sample Chromeless app), that:</p>
+
+<ul>
+<li>Runs the standard Chromeless CommonJS libraries</li>
+<li>Runs a custom set of &#8220;Tide&#8221; CommonJS libraries</li>
+<li>Runs a compiled version of node.js and executes a sample node.js script (called node.js which launches a HTTP server instance on port 8000 and returns some HTML)</li>
+<li>Bundles a basic OSX package, whereby NodeJs and the application itself are executed by a bash script that I packaged up into an application file using another bash script - basically when we would build a &#8216;package&#8217; or &#8216;msi&#8217; for a user, we&#8217;re just running some scripts that bundle up our code, Xulrunner and a few other launch scripts together.</li>
+</ul>
+
+
+<p>We will, as a leadership group, be discussing this approach over the next couple of days with the intention of setting out a series of 0.1 release goals. These will be the features that will be available in our very first release, wich is going to be a very early alpha with a limited feature set, but it will be enough to provide a prototype. I will post those 0.1 release goals publicly once we have group agreement and push the code into a new GIT repo and ask the community to start providing feedback.</p>
+
+<p>Looking forward to your comments over the coming days,</p>
+
+<p>Boydlee</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">David Pratt (for TideSDK)</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-10T16:49:00-03:00" pubdate data-updated="true">Apr 10<span>th</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/blog/'>blog</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://TideSDK.github.com/blog/2012/04/10/whats-happening-10th-april/" data-via="tidesdk" data-counturl="http://TideSDK.github.com/blog/2012/04/10/whats-happening-10th-april/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/03/23/logo-competition/" title="Previous Post: Logo Competition">&laquo; Logo Competition</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/04/10/whats-happening-10th-april/">What's Happening? - 10th April</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/03/23/logo-competition/">Logo Competition</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/03/20/20th-march-2012-minutes/">20th March 2012 Minutes</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/03/08/leadership-team-survey-results/">Leadership Team Survey Results</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/03/05/5th-march-2012-minutes/">5th March 2012 Minutes</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("tidesdk", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/tidesdk" class="twitter-follow-button" data-show-count="false">Follow @tidesdk</a>
+  
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - David Pratt (for TideSDK) -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
