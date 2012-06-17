@@ -3,7 +3,7 @@ layout: post
 title: "Leadership Team Survey Results"
 date: 2012-03-08 15:29
 comments: true
-author: Boydlee
+author: Sharry Stowell
 ---
 
 ## Survey Results
