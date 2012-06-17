@@ -4,7 +4,7 @@
   <title><![CDATA[TideSDK]]></title>
   <link href="http://TideSDK.github.com/atom.xml" rel="self"/>
   <link href="http://TideSDK.github.com/"/>
-  <updated>2012-06-17T16:14:44-03:00</updated>
+  <updated>2012-06-17T16:41:07-03:00</updated>
   <id>http://TideSDK.github.com/</id>
   <author>
     <name><![CDATA[David Pratt (for TideSDK)]]></name>
@@ -46,6 +46,35 @@
 </li>
 </ul>
 
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[20th March 2012 Minutes]]></title>
+    <link href="http://TideSDK.github.com/blog/2012/03/20/20th-march-2012-minutes/"/>
+    <updated>2012-03-20T16:33:00-03:00</updated>
+    <id>http://TideSDK.github.com/blog/2012/03/20/20th-march-2012-minutes</id>
+    <content type="html"><![CDATA[<h2>Tide SDK Leadership Group Meeting</h2>
+
+<p>2 dev teams: We are going to split into 2 development teams temporarily</p>
+
+<ul>
+<li>Team 1 will continue on with Ti Desktop, fixing bugs in the source code and trying to update WebKit for OSX/Mac to the new version (on the Ti Desktop repo currently under TideSDK Github, please ask Sharry for connection details)</li>
+<li>Team 2 will look at the possibility of creating a new architecture based around a CommonJS/Chromium/Node solution. We will give this a set amount of discovery time before meeting again and discussing whether it’s both possible and feasible, and of course, whether based on our findings it is the right path forward. Russell – you and I can discuss offline what a reasonable time frame is as I don’t know your schedule but do know mine is currently manic.</li>
+</ul>
+
+
+<p>The split was basically along these lines:</p>
+
+<ul>
+<li>Team 1: Burak, Diogo, Piotr. Additionally, Dan and Sharry will start documenting and Sharry will continue on with the website maintenance and posting blog items, etc.</li>
+<li><p>Team 2: Russell, Boydlee will look into the Node / CEF solution</p></li>
+<li><p>Both: David would like to be across both teams. Dan and Sharry will also be across both teams where they can.</p></li>
+<li>We’ll put the call out there on the website and the Google group for other devs to help out as well, but these will be the go-to people for questions regarding implementation and direction.</li>
+</ul>
+
+
+<p><a href="http://tidesdk.github.com/downloads/TideSDK-Minutes-20032012.pdf">Download Minutes PDF (~70K)</a></p>
 ]]></content>
   </entry>
   
