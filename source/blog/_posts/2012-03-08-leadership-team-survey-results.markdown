@@ -3,7 +3,7 @@ layout: post
 title: "Leadership Team Survey Results"
 date: 2012-03-08 15:29
 comments: true
-categories: survey
+author: Boydlee
 ---
 
 ## Survey Results
@@ -29,10 +29,10 @@ Survey Results PDF (~217K)
 ## Visual Results
 
 A number of potential names have been put forward for the new "Titanium Desktop". Pick one:
-![alt-text](../images/survey1.png)
+![alt-text](http://tidesdk.github.com/images/survey1.png)
 
 How important to you is the continued inclusion of server side languages (Python, Ruby, PHP)? If important, please explain why.
-![alt-text](../images/survey1.png)
+![alt-text](http://tidesdk.github.com/images/survey1.png)
 
 Would you prefer to see a more "javascript-based" approach to Ti Desktop, similar to that employed by the Titanium Mobile SDK?
-![alt-text](../images/survey1.png)
+![alt-text](http://tidesdk.github.com/images/survey1.png)
