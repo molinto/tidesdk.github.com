@@ -4,7 +4,7 @@
   <title><![CDATA[TideSDK]]></title>
   <link href="http://TideSDK.github.com/atom.xml" rel="self"/>
   <link href="http://TideSDK.github.com/"/>
-  <updated>2012-06-17T17:42:26-03:00</updated>
+  <updated>2012-06-17T17:44:35-03:00</updated>
   <id>http://TideSDK.github.com/</id>
   <author>
     <name><![CDATA[David Pratt (for TideSDK)]]></name>
@@ -14,10 +14,29 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Crowdsourcing Collection of Legacy Documents and Media]]></title>
+    <link href="http://TideSDK.github.com/blog/2012/06/13/crowdsourcing-collection-of-legacy-documents-and-media/"/>
+    <updated>2012-06-13T17:34:00-03:00</updated>
+    <id>http://TideSDK.github.com/blog/2012/06/13/crowdsourcing-collection-of-legacy-documents-and-media</id>
+    <content type="html"><![CDATA[<p>Since Appcelerator&#8217;s announced the discontinuation of Titanium Destkop, we have been  concerned about the potential loss and disappearance of valuable media, articles and knowledge that has accumulated over time about this great product.</p>
+
+<p>We need your eyes and actions to help us gather valuable media, articles, tutorials, sample apps, slide presentations (slideshares) and any other valuable knowledge that may help future users of TideSDK.</p>
+
+<p>Please post your findings on our Google group at:</p>
+
+<p><a href="https://groups.google.com/forum/?fromgroups&amp;hl=en#!topic/tidesdk/B7k9KyVa3yg">TiDesktop Archive</a></p>
+
+<p>I believe anyone involved in this effort will be surprised about the wealth of information floating around that we must collect up and preserve.</p>
+
+<p>Please join in our crowdsourced effort.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Progress Report 1 - June 10]]></title>
-    <link href="http://TideSDK.github.com/blog/2012/06/17/progress-report-1-june-10/"/>
-    <updated>2012-06-17T17:23:00-03:00</updated>
-    <id>http://TideSDK.github.com/blog/2012/06/17/progress-report-1-june-10</id>
+    <link href="http://TideSDK.github.com/blog/2012/06/10/progress-report-1-june-10/"/>
+    <updated>2012-06-10T17:23:00-03:00</updated>
+    <id>http://TideSDK.github.com/blog/2012/06/10/progress-report-1-june-10</id>
     <content type="html"><![CDATA[<p>This is first public post on progress. With the blessing of Boydlee, I have assumed the Project Lead position. You will find me at https://github.com/fairwinds. After some delay, TideSDK is moving forward in a positive way with the code and also with the full support of the initiative from Appcelerator through Kevin Whinnery.</p>
 
 <p>I have sought commitments from Appcelerator for their support including specific legal, financial and technical assistance (when needed). I was happy this past week to have received this. I have been advised that Nina, Appcelerator&#8217;s dedicated legal support is working actively to immediately resolve the issue posed by the TiStudio (that impacted the TiDesktop and Kroll projects that we are inheriting). This has been a barrier to moving forward and a high priority request that I expect to see fulfilled shortly.</p>
@@ -55,25 +74,6 @@ Initially, we have a small developer group and we want to expand this shortly. A
 
 <p>Regards,
 David</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Crowdsourcing Collection of Legacy Documents and Media]]></title>
-    <link href="http://TideSDK.github.com/blog/2012/06/13/crowdsourcing-collection-of-legacy-documents-and-media/"/>
-    <updated>2012-06-13T17:34:00-03:00</updated>
-    <id>http://TideSDK.github.com/blog/2012/06/13/crowdsourcing-collection-of-legacy-documents-and-media</id>
-    <content type="html"><![CDATA[<p>Since Appcelerator&#8217;s announced the discontinuation of Titanium Destkop, we have been  concerned about the potential loss and disappearance of valuable media, articles and knowledge that has accumulated over time about this great product.</p>
-
-<p>We need your eyes and actions to help us gather valuable media, articles, tutorials, sample apps, slide presentations (slideshares) and any other valuable knowledge that may help future users of TideSDK.</p>
-
-<p>Please post your findings on our Google group at:</p>
-
-<p><a href="https://groups.google.com/forum/?fromgroups&amp;hl=en#!topic/tidesdk/B7k9KyVa3yg">TiDesktop Archive</a></p>
-
-<p>I believe anyone involved in this effort will be surprised about the wealth of information floating around that we must collect up and preserve.</p>
-
-<p>Please join in our crowdsourced effort.</p>
 ]]></content>
   </entry>
   
