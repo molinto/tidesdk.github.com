@@ -12,7 +12,7 @@ Here is the results of the survey - we collected 69 responses and they are quite
 
 ## Download 
 
-Survey Results PDF (~217K)
+[Survey Results PDF](http://tidesdk.github.com/downloads/SurveyMonkey-Survey-Results.pdf) (~217K)
 
 ## The questions asked were:
 
