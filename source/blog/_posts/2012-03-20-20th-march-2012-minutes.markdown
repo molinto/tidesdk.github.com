@@ -1,0 +1,25 @@
+---
+layout: post
+title: "20th March 2012 Minutes"
+date: 2012-03-20 16:33
+comments: true
+categories: minutes
+author: Sharry Stowell
+---
+
+## Tide SDK Leadership Group Meeting
+
+2 dev teams: We are going to split into 2 development teams temporarily
+
+* Team 1 will continue on with Ti Desktop, fixing bugs in the source code and trying to update WebKit for OSX/Mac to the new version (on the Ti Desktop repo currently under TideSDK Github, please ask Sharry for connection details)
+* Team 2 will look at the possibility of creating a new architecture based around a CommonJS/Chromium/Node solution. We will give this a set amount of discovery time before meeting again and discussing whether it’s both possible and feasible, and of course, whether based on our findings it is the right path forward. Russell – you and I can discuss offline what a reasonable time frame is as I don’t know your schedule but do know mine is currently manic.
+
+The split was basically along these lines:
+
+* Team 1: Burak, Diogo, Piotr. Additionally, Dan and Sharry will start documenting and Sharry will continue on with the website maintenance and posting blog items, etc.
+* Team 2: Russell, Boydlee will look into the Node / CEF solution
+
+* Both: David would like to be across both teams. Dan and Sharry will also be across both teams where they can.
+* We’ll put the call out there on the website and the Google group for other devs to help out as well, but these will be the go-to people for questions regarding implementation and direction.
+
+[Download Minutes PDF (~70K)](http://tidesdk.github.com/downloads/TideSDK-Minutes-20032012.pdf)
