@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[TideSDK]]></title>
-  <link href="http://TideSDK.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: blog | TideSDK]]></title>
+  <link href="http://TideSDK.github.com/blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://TideSDK.github.com/"/>
   <updated>2012-06-17T14:51:51-03:00</updated>
   <id>http://TideSDK.github.com/</id>
@@ -22,9 +22,9 @@
 
 <h3>Project Name</h3>
 
-<p>a. Discussions were made around the name of the project, and the group. &#8220;Tide&#8221; was the clear winner from the survey of names suggested by the community. After some deliberation and decisions revolving around other similar project names on the web and how we could differentiate ourselves - plus a check on domain availability - it was decided and agreed by majority that the new name of the product and group would be called &#8220;Tide SDK&#8221;.
-b. As agreed by the group, all correspondence and documentation will refer to the product by its full name of &#8220;Tide SDK&#8221;. In speech, conversation etc, this can also referred to as &#8220;Tide&#8221;.
-c. Sharry Stowell purchased and is holding for the group the domains &#8220;tidesdk.org&#8221; and &#8220;tidesdk.com&#8221;. Our main domain will be the .ORG. The .COM will be redirected to the .ORG.
+<p>a. Discussions were made around the name of the project, and the group. "Tide" was the clear winner from the survey of names suggested by the community. After some deliberation and decisions revolving around other similar project names on the web and how we could differentiate ourselves - plus a check on domain availability - it was decided and agreed by majority that the new name of the product and group would be called "Tide SDK".
+b. As agreed by the group, all correspondence and documentation will refer to the product by its full name of "Tide SDK". In speech, conversation etc, this can also referred to as "Tide".
+c. Sharry Stowell purchased and is holding for the group the domains "tidesdk.org" and "tidesdk.com". Our main domain will be the .ORG. The .COM will be redirected to the .ORG.
 d. Our group logo will be created as part of our initial interaction with the community. We will open a competition for the best logo. Details TBC.</p>
 
 <h3>Website Development &amp; Community Co-ordinator</h3>
@@ -35,7 +35,7 @@ d. Our group logo will be created as part of our initial interaction with the co
 
 <p>a. All code to be stored in a GitHub Open Source account. Sharry will organize this account.
 b. Group decided on Atlassian, which includes project management plus Jira, etc. Used by a lot of open source groups. Sharry to organize - we will try to get a free account as we are an open source group.
-c. OSQA decided upon as the open source Q&amp;A system, which is similar to Appcelerator&#8217;s and will hopefully ease the transition of existing Q&amp;A from that site to ours.</p>
+c. OSQA decided upon as the open source Q&amp;A system, which is similar to Appcelerator's and will hopefully ease the transition of existing Q&amp;A from that site to ours.</p>
 
 <h3>Server side languages &amp; Project Architecture</h3>
 
@@ -45,13 +45,13 @@ c. Alternatively, as a group most feel we do not have the capacity to support 4x
 d. A suggested middle ground was keeping Python support only.
 e. Another suggestion was that external language support (re: Python)
 should be made as an extension and kept out of the product core.
-f. Suggestions were made about the implementation of Node.JS as a core piece of the project. Node.JS would allow us to have a built-in framework for native extensions in C/C++, plus has a large community and a bunch of existing extensions we can leverage. It has a large set of built in API&#8217;s we wouldn&#8217;t have to rewrite (e.g. file system). It has a built
+f. Suggestions were made about the implementation of Node.JS as a core piece of the project. Node.JS would allow us to have a built-in framework for native extensions in C/C++, plus has a large community and a bunch of existing extensions we can leverage. It has a large set of built in API's we wouldn't have to rewrite (e.g. file system). It has a built
 in package manager. Most of the group seems in favour of Node.JS with a bit of exploring.</p>
 
 <h3>Moving To Chromium (Chrome Embedded) or Keeping Webkit</h3>
 
-<p>a. Generally considered a good idea from an administration standpoint. The more bits we can &#8220;black box&#8221; then the more time we have to focus on core code.
-b. As Kevin pointed out, one of Appcelerator&#8217;s biggest headaches wascontinually needing to upgrade and package the custom WebKit build with Titanium Desktop.
+<p>a. Generally considered a good idea from an administration standpoint. The more bits we can "black box" then the more time we have to focus on core code.
+b. As Kevin pointed out, one of Appcelerator's biggest headaches wascontinually needing to upgrade and package the custom WebKit build with Titanium Desktop.
 c. In saying, we need to first test Chrome Embed
 Architecture Submissions
 a. The group is divided along some lines of architecture, and the system as a whole needs to have some serious thought.
