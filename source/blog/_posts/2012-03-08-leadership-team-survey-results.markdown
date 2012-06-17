@@ -29,10 +29,13 @@ Survey Results PDF (~217K)
 ## Visual Results
 
 A number of potential names have been put forward for the new "Titanium Desktop". Pick one:
+
 ![alt-text](http://tidesdk.github.com/images/survey1.png)
 
 How important to you is the continued inclusion of server side languages (Python, Ruby, PHP)? If important, please explain why.
+
 ![alt-text](http://tidesdk.github.com/images/survey1.png)
 
 Would you prefer to see a more "javascript-based" approach to Ti Desktop, similar to that employed by the Titanium Mobile SDK?
+
 ![alt-text](http://tidesdk.github.com/images/survey1.png)
