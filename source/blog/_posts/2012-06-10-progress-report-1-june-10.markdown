@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Progress Report 1 - June 10"
-date: 2012-06-17 17:23
+date: 2012-06-10 17:23
 comments: true
 categories: progress
 author: David Pratt
