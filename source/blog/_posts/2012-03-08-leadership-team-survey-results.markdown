@@ -26,10 +26,13 @@ Survey Results PDF (~217K)
 8. What do you feel are the most important goals we should try to achieve in the long term?
 9. Please provide any more details regarding project direction, management, or anything at all that you want.
 
-![alt-text](images/survey1.png)
+## Visual Results
 
+A number of potential names have been put forward for the new "Titanium Desktop". Pick one:
+![alt-text](../images/survey1.png)
 
-![alt-text](images/survey1.png)
+How important to you is the continued inclusion of server side languages (Python, Ruby, PHP)? If important, please explain why.
+![alt-text](../images/survey1.png)
 
-
-![alt-text](images/survey1.png)
+Would you prefer to see a more "javascript-based" approach to Ti Desktop, similar to that employed by the Titanium Mobile SDK?
+![alt-text](../images/survey1.png)
