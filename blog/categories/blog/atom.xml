@@ -4,7 +4,7 @@
   <title><![CDATA[Category: blog | TideSDK]]></title>
   <link href="http://TideSDK.github.com/blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://TideSDK.github.com/"/>
-  <updated>2012-06-17T17:28:41-03:00</updated>
+  <updated>2012-06-17T17:42:26-03:00</updated>
   <id>http://TideSDK.github.com/</id>
   <author>
     <name><![CDATA[David Pratt (for TideSDK)]]></name>
@@ -55,6 +55,25 @@ Initially, we have a small developer group and we want to expand this shortly. A
 
 <p>Regards,
 David</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Crowdsourcing Collection of Legacy Documents and Media]]></title>
+    <link href="http://TideSDK.github.com/blog/2012/06/13/crowdsourcing-collection-of-legacy-documents-and-media/"/>
+    <updated>2012-06-13T17:34:00-03:00</updated>
+    <id>http://TideSDK.github.com/blog/2012/06/13/crowdsourcing-collection-of-legacy-documents-and-media</id>
+    <content type="html"><![CDATA[<p>Since Appcelerator's announced the discontinuation of Titanium Destkop, we have been  concerned about the potential loss and disappearance of valuable media, articles and knowledge that has accumulated over time about this great product.</p>
+
+<p>We need your eyes and actions to help us gather valuable media, articles, tutorials, sample apps, slide presentations (slideshares) and any other valuable knowledge that may help future users of TideSDK.</p>
+
+<p>Please post your findings on our Google group at:</p>
+
+<p><a href="https://groups.google.com/forum/?fromgroups&amp;hl=en#!topic/tidesdk/B7k9KyVa3yg">TiDesktop Archive</a></p>
+
+<p>I believe anyone involved in this effort will be surprised about the wealth of information floating around that we must collect up and preserve.</p>
+
+<p>Please join in our crowdsourced effort.</p>
 ]]></content>
   </entry>
   
@@ -155,50 +174,6 @@ David</p>
 
 
 <p><a href="http://tidesdk.github.com/downloads/TideSDK-Minutes-20032012.pdf">Download Minutes PDF (~70K)</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Leadership Team Survey Results]]></title>
-    <link href="http://TideSDK.github.com/blog/2012/03/08/leadership-team-survey-results/"/>
-    <updated>2012-03-08T15:29:00-04:00</updated>
-    <id>http://TideSDK.github.com/blog/2012/03/08/leadership-team-survey-results</id>
-    <content type="html"><![CDATA[<h2>Survey Results</h2>
-
-<p>Here is the results of the survey - we collected 69 responses and they are quite interesting and varied. In particular, there seems to be 2 camps; those who want the product to be a sandboxed "web server" of sorts, able to run PHP, Ruby, etc, and those who prefer a JavaScript approach with the removal of these excess languages. From what I gather, it also seems a lot of people have no idea exactly what the existing capabilities of Ti Desktop already are.</p>
-
-<h2>Download</h2>
-
-<p><a href="http://tidesdk.github.com/downloads/SurveyMonkey-Survey-Results.pdf">Survey Results PDF</a> (~217K)</p>
-
-<h2>The questions asked were:</h2>
-
-<ol>
-<li>A number of potential names have been put forward for the new "Titanium Desktop". Below are some of the most popular suggestions. Pick one.</li>
-<li>How important to you is the continued inclusion of server side languages (Python, Ruby, PHP)? If important, please explain why.</li>
-<li>Would you prefer to see a more "javascript-based" approach to Ti Desktop, similar to that employed by the Titanium Mobile SDK?</li>
-<li>Would you prefer to see WebKit replaced by Chrome Embedded (Chromium)?</li>
-<li>What technologies do you want to see integrated into any future Ti Desktop product?</li>
-<li>Would you like to see Ti Desktop become more extensible via the use of external, native modules?</li>
-<li>What do you feel are the most important goals we shouldtry to achieve in the short term?</li>
-<li>What do you feel are the most important goals we should try to achieve in the long term?</li>
-<li>Please provide any more details regarding project direction, management, or anything at all that you want.</li>
-</ol>
-
-
-<h2>Visual Results</h2>
-
-<p>A number of potential names have been put forward for the new "Titanium Desktop". Pick one:</p>
-
-<p><img src="http://tidesdk.github.com/images/survey1.png" alt="alt-text" /></p>
-
-<p>How important to you is the continued inclusion of server side languages (Python, Ruby, PHP)? If important, please explain why.</p>
-
-<p><img src="http://tidesdk.github.com/images/survey1.png" alt="alt-text" /></p>
-
-<p>Would you prefer to see a more "javascript-based" approach to Ti Desktop, similar to that employed by the Titanium Mobile SDK?</p>
-
-<p><img src="http://tidesdk.github.com/images/survey1.png" alt="alt-text" /></p>
 ]]></content>
   </entry>
   
