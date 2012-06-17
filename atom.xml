@@ -4,7 +4,7 @@
   <title><![CDATA[TideSDK]]></title>
   <link href="http://TideSDK.github.com/atom.xml" rel="self"/>
   <link href="http://TideSDK.github.com/"/>
-  <updated>2012-06-17T17:44:35-03:00</updated>
+  <updated>2012-06-17T20:16:33-03:00</updated>
   <id>http://TideSDK.github.com/</id>
   <author>
     <name><![CDATA[David Pratt (for TideSDK)]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Deep Dive into TideSDK Architecture with Marshall Culpepper]]></title>
+    <link href="http://TideSDK.github.com/blog/2012/06/13/deep-dive-into-tidesdk-architecture-with-marshall-culpepper/"/>
+    <updated>2012-06-13T20:06:00-03:00</updated>
+    <id>http://TideSDK.github.com/blog/2012/06/13/deep-dive-into-tidesdk-architecture-with-marshall-culpepper</id>
+    <content type="html"><![CDATA[<p>Join us for a scheduled Q &amp; A session with Marshall Culpepper, original developer of Titanium Desktop Friday June 15 at 3PM EDT / 1PM PDT on #tidesdk on freenode. We will be consulting on the architecture, potential, and priorities for TideSDK. In the interim, you can acquaint yourself with Marshall and his creation with the slideshare below. We are excited to have Marshall&#8217;s support and hope you are too.</p>
+
+<p><a href="http://www.slideshare.net/marshall_law/titanium-desktop-intro">Titanium Desktop Intro - Marshall Culpepper Slideshare</a></p>
+
+<p>More info is available at:</p>
+
+<p><a href="https://groups.google.com/forum/?fromgroups&amp;hl=en#!topic/tidesdk/R5Q93i2aZqA">https://groups.google.com/forum/?fromgroups&amp;hl=en#!topic/tidesdk/R5Q93i2aZqA</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Crowdsourcing Collection of Legacy Documents and Media]]></title>
