@@ -4,7 +4,7 @@
   <title><![CDATA[Category: blog | TideSDK]]></title>
   <link href="http://TideSDK.github.com/blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://TideSDK.github.com/"/>
-  <updated>2012-06-17T15:32:14-03:00</updated>
+  <updated>2012-06-17T15:36:47-03:00</updated>
   <id>http://TideSDK.github.com/</id>
   <author>
     <name><![CDATA[David Pratt (for TideSDK)]]></name>
@@ -15,10 +15,37 @@
   
   <entry>
     <title type="html"><![CDATA[Leadership Team Survey Results]]></title>
-    <link href="http://TideSDK.github.com/blog/2012/06/17/leadership-team-survey-results/"/>
-    <updated>2012-06-17T15:29:00-03:00</updated>
-    <id>http://TideSDK.github.com/blog/2012/06/17/leadership-team-survey-results</id>
-    <content type="html"><![CDATA[
+    <link href="http://TideSDK.github.com/blog/2012/03/08/leadership-team-survey-results/"/>
+    <updated>2012-03-08T15:29:00-04:00</updated>
+    <id>http://TideSDK.github.com/blog/2012/03/08/leadership-team-survey-results</id>
+    <content type="html"><![CDATA[<h2>Survey Results</h2>
+
+<p>Here is the results of the survey - we collected 69 responses and they are quite interesting and varied. In particular, there seems to be 2 camps; those who want the product to be a sandboxed "web server" of sorts, able to run PHP, Ruby, etc, and those who prefer a JavaScript approach with the removal of these excess languages. From what I gather, it also seems a lot of people have no idea exactly what the existing capabilities of Ti Desktop already are.</p>
+
+<h2>Download</h2>
+
+<p>Survey Results PDF (~217K)</p>
+
+<h2>The questions asked were:</h2>
+
+<ol>
+<li>A number of potential names have been put forward for the new "Titanium Desktop". Below are some of the most popular suggestions. Pick one.</li>
+<li>How important to you is the continued inclusion of server side languages (Python, Ruby, PHP)? If important, please explain why.</li>
+<li>Would you prefer to see a more "javascript-based" approach to Ti Desktop, similar to that employed by the Titanium Mobile SDK?</li>
+<li>Would you prefer to see WebKit replaced by Chrome Embedded (Chromium)?</li>
+<li>What technologies do you want to see integrated into any future Ti Desktop product?</li>
+<li>Would you like to see Ti Desktop become more extensible via the use of external, native modules?</li>
+<li>What do you feel are the most important goals we shouldtry to achieve in the short term?</li>
+<li>What do you feel are the most important goals we should try to achieve in the long term?</li>
+<li>Please provide any more details regarding project direction, management, or anything at all that you want.</li>
+</ol>
+
+
+<p><img src="images/survey1.png" alt="alt-text" /></p>
+
+<p><img src="images/survey1.png" alt="alt-text" /></p>
+
+<p><img src="images/survey1.png" alt="alt-text" /></p>
 ]]></content>
   </entry>
   
