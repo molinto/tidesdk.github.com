@@ -4,7 +4,7 @@
   <title><![CDATA[Category: blog | TideSDK]]></title>
   <link href="http://TideSDK.github.com/blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://TideSDK.github.com/"/>
-  <updated>2012-06-17T20:16:33-03:00</updated>
+  <updated>2012-06-17T20:38:31-03:00</updated>
   <id>http://TideSDK.github.com/</id>
   <author>
     <name><![CDATA[David Pratt (for TideSDK)]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Marshall Culpepper Session Great Success]]></title>
+    <link href="http://TideSDK.github.com/blog/2012/06/16/marshall-culpepper-session-great-success/"/>
+    <updated>2012-06-16T20:29:00-03:00</updated>
+    <id>http://TideSDK.github.com/blog/2012/06/16/marshall-culpepper-session-great-success</id>
+    <content type="html"><![CDATA[<p>Our Friday session with Marshall Culpepper was to say the least 'awesome'. We are very grateful to have his support for the TideSDK project. As you may be aware, Marshall was TiDesktop's original developer and kroll was his 'baby'. The session was well attended and our group benefitted immensely from Marshall's insights.</p>
+
+<p>Guiding the session using an outline prepared in advance, we gained from his knowledge of the past, discussed our present challenges, and looked toward the future. The session which ran a marathon 3+ hours, documented important legacy information, offered clarity concerning details of our project's architecture, helped with issues around our drillbit testing framework, our development approach, library upgrades, packaging, distribution and much more.</p>
+
+<p>The session ended with pledges to keep in touch along with a followup as we contemplate the challenges of Apple sandbox compliance. You will find a complete transcript of the session at:</p>
+
+<p><a href="https://github.com/TideSDK/TideSDK/wiki/Q-&amp;-A-with-Marshall-Culpepper">Marshall Culpepper Q &amp; A Session</a></p>
+
+<p>A big thank you Marshall on behalf of all involved in the TideSDK project.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Deep Dive into TideSDK Architecture with Marshall Culpepper]]></title>
@@ -124,42 +141,6 @@ David</p>
 <p>Looking forward to your comments over the coming days,</p>
 
 <p>Boydlee</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Logo Competition]]></title>
-    <link href="http://TideSDK.github.com/blog/2012/03/23/logo-competition/"/>
-    <updated>2012-03-23T15:50:00-03:00</updated>
-    <id>http://TideSDK.github.com/blog/2012/03/23/logo-competition</id>
-    <content type="html"><![CDATA[<h2>A New Brand</h2>
-
-<p>As we are starting afresh with the Titanium Desktop project, we need a few items to get us going. Firstly, the development team got together and decided on the ‘TideSDK’ (see minutes of the meeting here). The next step is on the agenda is the logo, this we be used in the application, on the website, any future mailings &amp; stationary.</p>
-
-<p>What better place to get involved in a community driven project than designing a logo! The competition will run from 23 March 2012 00:01 to 23 April 2012 23:59, any submission between this time will be put to a public vote by the community on the 16th April 2012 &amp; from those results, a final three will be chosen. On the 25 April 2012 the development team will choose a winning entry! Please see the rules below:</p>
-
-<h2>Terms &amp; conditions</h2>
-
-<ul>
-<li>The contest will run from 23 March 2012 00:01 (GMT) to 23 April 2012 23:59 (GMT)</li>
-<li>By submitting an entry to the contest, you agree to the competition rules;
-
-<ul>
-<li>All submissions MUST be sent to admin[at]tidesdk[dot].org;</li>
-<li>The competition is open to all;</li>
-<li>Multiple submissions are encouraged;</li>
-<li>Only 1 community/public vote allowed by IP address;</li>
-<li>The design must be in a scalable vector format;</li>
-<li>The development team will analyze the final 3 entries based on quality, design and overall community appeal;</li>
-<li>The winner will be decided by the development team exclusively;</li>
-<li>The judging period will be on 25 April 2012 (after the competition ends);</li>
-<li>The winner be relinquish all rights of the design &amp; hand them over to the community project lead;</li>
-<li>The winner will be notified by email &amp; public announced in the TideSDK blog;</li>
-<li>All questions should be directed at admin[at]tidesdk[dot]org</li>
-</ul>
-</li>
-</ul>
-
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[TideSDK]]></title>
   <link href="http://TideSDK.github.com/atom.xml" rel="self"/>
   <link href="http://TideSDK.github.com/"/>
-  <updated>2012-06-17T20:16:33-03:00</updated>
+  <updated>2012-06-17T20:38:31-03:00</updated>
   <id>http://TideSDK.github.com/</id>
   <author>
     <name><![CDATA[David Pratt (for TideSDK)]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Marshall Culpepper Session Great Success]]></title>
+    <link href="http://TideSDK.github.com/blog/2012/06/16/marshall-culpepper-session-great-success/"/>
+    <updated>2012-06-16T20:29:00-03:00</updated>
+    <id>http://TideSDK.github.com/blog/2012/06/16/marshall-culpepper-session-great-success</id>
+    <content type="html"><![CDATA[<p>Our Friday session with Marshall Culpepper was to say the least &#8216;awesome&#8217;. We are very grateful to have his support for the TideSDK project. As you may be aware, Marshall was TiDesktop&#8217;s original developer and kroll was his &#8216;baby&#8217;. The session was well attended and our group benefitted immensely from Marshall&#8217;s insights.</p>
+
+<p>Guiding the session using an outline prepared in advance, we gained from his knowledge of the past, discussed our present challenges, and looked toward the future. The session which ran a marathon 3+ hours, documented important legacy information, offered clarity concerning details of our project&#8217;s architecture, helped with issues around our drillbit testing framework, our development approach, library upgrades, packaging, distribution and much more.</p>
+
+<p>The session ended with pledges to keep in touch along with a followup as we contemplate the challenges of Apple sandbox compliance. You will find a complete transcript of the session at:</p>
+
+<p><a href="https://github.com/TideSDK/TideSDK/wiki/Q-&amp;-A-with-Marshall-Culpepper">Marshall Culpepper Q &amp; A Session</a></p>
+
+<p>A big thank you Marshall on behalf of all involved in the TideSDK project.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Deep Dive into TideSDK Architecture with Marshall Culpepper]]></title>
