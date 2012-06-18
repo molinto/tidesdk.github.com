@@ -76,7 +76,7 @@ Appcelerator is currently ranked #2 by on momentumindex.com with 50.2 million in
 
 [http://momentumindex.com/100-open-source-companies-ranked-by-momentum-index](http://momentumindex.com/100-open-source-companies-ranked-by-momentum-index)
 
-This is a fact that is hard to reconcile with the rejection of our minimal request for legal, financial and technical consultation. Appcelerator dicontinued TiDesktop with a pledge to the community for a transition and continuation under a community effort.
+This is a fact that is hard to reconcile with the rejection of our minimal request for legal, financial and technical consultation. Appcelerator dicontinued TiDesktop with a pledge to the community for a transition and continuation under an open community effort.
 
 Excerpt from the original pledge:
 
