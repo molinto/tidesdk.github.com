@@ -5,6 +5,7 @@ date: 2012-06-14 20:49
 comments: true
 categories: appcelerator
 author: David Pratt
+published: false
 ---
 
 ### The Bad News
