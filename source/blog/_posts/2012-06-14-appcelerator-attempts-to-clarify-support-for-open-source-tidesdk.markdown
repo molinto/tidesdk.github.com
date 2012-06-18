@@ -9,8 +9,7 @@ author: David Pratt
 
 The TideSDK project received disappointing news today as Appcelerator clarified a position that left little in the way of support to enable the transition of the project. From the Titanium Desktop Transition Mailing List:
 
-```
-Hi everybody,
+"Hi everybody,
 
 Recently there has been some confusion around the legal status of the desktop codebase, and the official position of Appcelerator as it pertains to supporting the Tide SDK project.  I wanted to clarify both of those items, so that everyone knows where Appcelerator stands.
 
@@ -27,9 +26,7 @@ Thanks,
 -- 
 Kevin Whinnery
 Director of Developer Relations
-Appcelerator, Inc.
-
-```
+Appcelerator, Inc."
 
 Needless to say this was discouraging news after we felt that we had shored the necessary legal, finanical support and technical consultation we had received earlier from Kevin. You can follow this thread at:
 
@@ -37,21 +34,19 @@ Needless to say this was discouraging news after we felt that we had shored the 
 
 Jeff Haynie, Appcelerator's had intervened to advise the following:
 
-```
-Hey guys
+"Hey guys
 
 I'm not sure how much more clear we need to be around the license for desktop. The code in github is Apache 2. However Studio is not. Studio is not the issue here. It's not OSS and never has been. It is however free. But studio is not required for desktop and shouldn't need to be considered as part of the TideSDK and likely would never be part of Studio anyway.
 
 On the issue of packaging, our build server simply invoked the package scripts that are already available as part of the source and are open source. The wrapper code simply did work to add the build to our DB and some other Appcelerator cloud type stuff. It's is little less than 500 lines of code and wouldn't be useful if we did OSS it.
 
-You have our moral and some limited financial support. I think that is reasonable.
-```
+You have our moral and some limited financial support. I think that is reasonable."
 
 Our requests for support were outlined in this document. Pledges of support from Appclerator's Kevin Whinnery came to use over an irc conversation on #tidesdk that was logged. The log is included.
 
 [Appcelerator Requests](https://github.com/TideSDK/TideSDK/wiki/Appcelerator-requests)
 
-In total, our requests consisted of the modification a license clause in TiStudio, startup costs totalling $2104.00 and an ongoing monthly cost of $797.00. We requested assistance for some technical consultation for our developers for a limited time until as our developers become more familiar with the code base. Our budget is attached in the request document above for clarity and breakdown of the numbers. Mostly this is to provide for our Continous Integrations (ci) system and to use those same servers in a role for user network packaging.
+In total, our requests consisted of the modification a license clause in TiStudio, startup costs totalling $2104.00 and an ongoing monthly cost of $797.00. We requested assistance for some technical consultation for our developers for a limited time until as our developers become more familiar with the code base. Our budget is attached in the request document above for clarity and breakdown of the numbers. Mostly this is to provide for our Continous Integration (ci) system and to use those same servers in a role for user network packaging.
 
 We had also asked that Appcelerator set aside funds that we could request on a case by case basis to offer bounties to accelerate important bug fixes and to encourage new developers into the code base.
 
