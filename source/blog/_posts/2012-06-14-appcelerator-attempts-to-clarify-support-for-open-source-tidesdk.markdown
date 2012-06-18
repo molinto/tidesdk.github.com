@@ -58,7 +58,7 @@ You have our moral and some limited financial support. I think that is reasonabl
 
 ### TideSDK Requests From Appcelerator
 
-Our requests for support were outlined in this document. Pledges of support from Appclerator's Kevin Whinnery came to use over an irc conversation on #tidesdk that was logged. The log is included.
+Our requests for support were outlined in this document. Pledges of support from Appclerator's Kevin Whinnery came to us in an irc conversation on #tidesdk that was logged. The log is included.
 
 [Appcelerator Requests](https://github.com/TideSDK/TideSDK/wiki/Appcelerator-requests)
 
