@@ -7,17 +7,17 @@ categories: appcelerator
 author: David Pratt
 ---
 
-## The Bad News
+### The Bad News
 
 The TideSDK project received disappointing news today as Appcelerator clarified a position that left little in the way of support to enable the transition of the project.
 
-## The Original Pledge
+### The Original Pledge
 
 Appclerator originally pleged its support to this transition in its official blog
 
 [Official Appcelerator Blog - The Future of Titanium Desktop](http://developer.appcelerator.com/blog/2012/01/the-future-of-titanium-desktop.html)
 
-## Appcelerator's Official Statement Received June 14
+### Appcelerator's Official Statement Received June 14
 
 From the Titanium Desktop Transition Mailing List
 
@@ -44,7 +44,7 @@ Needless to say this was discouraging news after we felt that we had shored the 
 
 [Tiantium Desktop Transition List - Clarification on Appcelerator relationship](https://groups.google.com/forum/?fromgroups#!topic/titanium-desktop-transition/IUe7S8lYNs0)
 
-## Statment from Jeff Haynie, Appcelerator's CEO
+### Statment from Jeff Haynie, Appcelerator's CEO
 
 Jeff Haynie, Appcelerator's had intervened to advise the following:
 
@@ -56,7 +56,7 @@ On the issue of packaging, our build server simply invoked the package scripts t
 
 You have our moral and some limited financial support. I think that is reasonable.
 
-## TideSDK Requests
+### TideSDK Requests From Appcelerator
 
 Our requests for support were outlined in this document. Pledges of support from Appclerator's Kevin Whinnery came to use over an irc conversation on #tidesdk that was logged. The log is included.
 
@@ -70,7 +70,7 @@ Having felt we had received the commitments of support verbally, we were surpris
 
 We are currently awaiting clarification from Jeff Haynie to understand the meaning of "minimal financial support". We deliverd a budget with that meaning in mind. For TideSDK to be developed, we must maintain a ci system to ensure we understand the impact of code changes on our builds and unit tests. We currently receive no funding from Appcelerator that I am aware of.
 
-## A Lack of Support that is Difficult to Reconcile
+### A Lack of Support that is Difficult to Reconcile
 
 Appcelerator is currently ranked #2 by on momentumindex.com with 50.2 million in venture capital. 
 
@@ -82,7 +82,7 @@ Excerpt from the original pledge:
 
 "The new Desktop project, which will undergo a name change from Titanium Desktop, will be governed and developed by the Desktop community, with material, administrative and logistical support from Appcelerator, but limited development resources. From the Appcelerator side, I will be acting as the liaison for this community to Appcelerator, and facilitate any action or assistance that needs to be rendered from our end."
 
-## Summary
+### Summary
 
 Depite the current circumstances, this transition is occuring. There is dedicated and growing support for TideSDK. It is our desire for the TideSDK project to work together with Appcelerator on a collaborative and cooperative basis. That said we are not receiving the assistance that was pledged. We have requested a meeting to properly resolve this. It is desirable for this to end with the support we need together with a announcement of support from Appcelerator and a joint commitment towards the goals of a successful transition.
 
