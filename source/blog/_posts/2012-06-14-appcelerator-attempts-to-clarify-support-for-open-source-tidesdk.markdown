@@ -9,7 +9,7 @@ author: David Pratt
 
 ### The Bad News
 
-The TideSDK project received disappointing news today as Appcelerator clarified a position that left little in the way of support to enable the transition of the project.
+The TideSDK project received disappointing news today as Appcelerator attempted to clarify a position that left little in the way of support to enable the transition of the Titanium Desktop project to a community open source effort.
 
 ### The Original Pledge
 
