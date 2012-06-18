@@ -4,7 +4,7 @@
   <title><![CDATA[TideSDK]]></title>
   <link href="http://TideSDK.github.com/atom.xml" rel="self"/>
   <link href="http://TideSDK.github.com/"/>
-  <updated>2012-06-18T00:08:17-03:00</updated>
+  <updated>2012-06-18T00:11:47-03:00</updated>
   <id>http://TideSDK.github.com/</id>
   <author>
     <name><![CDATA[David Pratt (for TideSDK)]]></name>
@@ -37,7 +37,7 @@
     <id>http://TideSDK.github.com/blog/2012/06/14/appcelerator-attempts-to-clarify-support-for-open-source-tidesdk</id>
     <content type="html"><![CDATA[<h3>The Bad News</h3>
 
-<p>The TideSDK project received disappointing news today as Appcelerator clarified a position that left little in the way of support to enable the transition of the project.</p>
+<p>The TideSDK project received disappointing news today as Appcelerator attempted to clarify a position that left little in the way of support to enable the transition of the Titanium Desktop project to a community open source effort.</p>
 
 <h3>The Original Pledge</h3>
 
