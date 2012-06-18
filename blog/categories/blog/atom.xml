@@ -4,7 +4,7 @@
   <title><![CDATA[Category: blog | TideSDK]]></title>
   <link href="http://TideSDK.github.com/blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://TideSDK.github.com/"/>
-  <updated>2012-06-18T00:14:00-03:00</updated>
+  <updated>2012-06-18T00:15:53-03:00</updated>
   <id>http://TideSDK.github.com/</id>
   <author>
     <name><![CDATA[David Pratt (for TideSDK)]]></name>
@@ -74,15 +74,15 @@ Appcelerator, Inc."</p>
 
 <h3>Statment from Jeff Haynie, Appcelerator's CEO</h3>
 
-<p>Jeff Haynie, Appcelerator's had intervened to advise the following:</p>
+<p>Jeff Haynie, Appcelerator's CEO intervened to advise the following:</p>
 
-<p>Hey guys</p>
+<p>"Hey guys</p>
 
 <p>I'm not sure how much more clear we need to be around the license for desktop. The code in github is Apache 2. However Studio is not. Studio is not the issue here. It's not OSS and never has been. It is however free. But studio is not required for desktop and shouldn't need to be considered as part of the TideSDK and likely would never be part of Studio anyway.</p>
 
 <p>On the issue of packaging, our build server simply invoked the package scripts that are already available as part of the source and are open source. The wrapper code simply did work to add the build to our DB and some other Appcelerator cloud type stuff. It's is little less than 500 lines of code and wouldn't be useful if we did OSS it.</p>
 
-<p>You have our moral and some limited financial support. I think that is reasonable.</p>
+<p>You have our moral and some limited financial support. I think that is reasonable."</p>
 
 <h3>TideSDK Requests From Appcelerator</h3>
 
