@@ -7,7 +7,19 @@ categories: appcelerator
 author: David Pratt
 ---
 
-The TideSDK project received disappointing news today as Appcelerator clarified a position that left little in the way of support to enable the transition of the project. From the Titanium Desktop Transition Mailing List:
+## The Bad News
+
+The TideSDK project received disappointing news today as Appcelerator clarified a position that left little in the way of support to enable the transition of the project.
+
+## The Original Pledge
+
+Appclerator originally pleged its support to this transition in its official blog
+
+[Official Appcelerator Blog - The Future of Titanium Desktop](http://developer.appcelerator.com/blog/2012/01/the-future-of-titanium-desktop.html)
+
+## Appcelerator's Official Statement Received June 14
+
+From the Titanium Desktop Transition Mailing List
 
 "Hi everybody,
 
@@ -32,15 +44,19 @@ Needless to say this was discouraging news after we felt that we had shored the 
 
 [Tiantium Desktop Transition List - Clarification on Appcelerator relationship](https://groups.google.com/forum/?fromgroups#!topic/titanium-desktop-transition/IUe7S8lYNs0)
 
+## Statment from Jeff Haynie, Appcelerator's CEO
+
 Jeff Haynie, Appcelerator's had intervened to advise the following:
 
-"Hey guys
+Hey guys
 
 I'm not sure how much more clear we need to be around the license for desktop. The code in github is Apache 2. However Studio is not. Studio is not the issue here. It's not OSS and never has been. It is however free. But studio is not required for desktop and shouldn't need to be considered as part of the TideSDK and likely would never be part of Studio anyway.
 
 On the issue of packaging, our build server simply invoked the package scripts that are already available as part of the source and are open source. The wrapper code simply did work to add the build to our DB and some other Appcelerator cloud type stuff. It's is little less than 500 lines of code and wouldn't be useful if we did OSS it.
 
-You have our moral and some limited financial support. I think that is reasonable."
+You have our moral and some limited financial support. I think that is reasonable.
+
+## TideSDK Requests
 
 Our requests for support were outlined in this document. Pledges of support from Appclerator's Kevin Whinnery came to use over an irc conversation on #tidesdk that was logged. The log is included.
 
@@ -54,9 +70,7 @@ Having felt we had received the commitments of support verbally, we were surpris
 
 We are currently awaiting clarification from Jeff Haynie to understand the meaning of "minimal financial support". We deliverd a budget with that meaning in mind. For TideSDK to be developed, we must maintain a ci system to ensure we understand the impact of code changes on our builds and unit tests. We currently receive no funding from Appcelerator that I am aware of.
 
-Appclerator originally pleged its support to this transition in its official blog
-
-[Official Appcelerator Blog - The Future of Titanium Desktop](http://developer.appcelerator.com/blog/2012/01/the-future-of-titanium-desktop.html)
+## A Lack of Support that is Difficult to Reconcile
 
 Appcelerator is currently ranked #2 by on momentumindex.com with 50.2 million in venture capital. 
 
@@ -64,11 +78,13 @@ Appcelerator is currently ranked #2 by on momentumindex.com with 50.2 million in
 
 This is a fact that is hard to reconcile with the rejection of our minimal request for legal, financial and technical consultation. Appcelerator dicontinued TiDesktop with a pledge to the community for a transition and continuation under a community effort.
 
-From the blog post above:
+Excerpt from the original pledge:
 
 "The new Desktop project, which will undergo a name change from Titanium Desktop, will be governed and developed by the Desktop community, with material, administrative and logistical support from Appcelerator, but limited development resources. From the Appcelerator side, I will be acting as the liaison for this community to Appcelerator, and facilitate any action or assistance that needs to be rendered from our end."
 
-This transition is occuring. There is dedicated and growing support for TideSDK. Further, it is our desire to work together with Appcelerator on a collaborative and cooperative basis. That said we are not receiving the assistance that was pledged. We have requested a meeting to properly resolve this. It is desirable for this to end with the support we need together with a announcement of support from Appcelerator and our joint commitment towards the goals of a successful transition.
+## Summary
+
+Depite the current circumstances, this transition is occuring. There is dedicated and growing support for TideSDK. It is our desire for the TideSDK project to work together with Appcelerator on a collaborative and cooperative basis. That said we are not receiving the assistance that was pledged. We have requested a meeting to properly resolve this. It is desirable for this to end with the support we need together with a announcement of support from Appcelerator and a joint commitment towards the goals of a successful transition.
 
 
 
