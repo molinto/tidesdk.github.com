@@ -66,7 +66,7 @@ In total, our requests consisted of the modification a license clause in TiStudi
 
 We had also asked that Appcelerator set aside funds that we could request on a case by case basis to offer bounties to accelerate important bug fixes and to encourage new developers into the code base.
 
-Having felt we had received the commitments of support verbally, we were surprised the budget was rejected. We were advised to wait for Kevin's official statement on support. The official correspondence suggests no tangible support or cooperation. I had requested a face-to-face skype with Sandeep Johri to resolve this issue prior to Kevin making an official public statement on the mailing list. I have responded on the mailing list to clarify for all,  the figures and pledges made.
+Having felt we had received the commitments of support verbally, we were surprised the budget was rejected. We were advised to wait for Kevin's official statement on support. The official correspondence suggests no tangible support or cooperation. As the Project Lead, I requested a face-to-face skype with Sandeep Johri to resolve this issue prior to Kevin making an official public statement on the mailing list. I was forced responded on the mailing list to clarify for all, the figures and pledges made by Appcelerator in contrast to their actions.
 
 We are currently awaiting clarification from Jeff Haynie to understand the meaning of "minimal financial support". We deliverd a budget with that meaning in mind. For TideSDK to be developed, we must maintain a ci system to ensure we understand the impact of code changes on our builds and unit tests. We currently receive no funding from Appcelerator that I am aware of.
 
