@@ -46,15 +46,15 @@ Needless to say this was discouraging news after we felt that we had shored the 
 
 ### Statment from Jeff Haynie, Appcelerator's CEO
 
-Jeff Haynie, Appcelerator's had intervened to advise the following:
+Jeff Haynie, Appcelerator's CEO intervened to advise the following:
 
-Hey guys
+"Hey guys
 
 I'm not sure how much more clear we need to be around the license for desktop. The code in github is Apache 2. However Studio is not. Studio is not the issue here. It's not OSS and never has been. It is however free. But studio is not required for desktop and shouldn't need to be considered as part of the TideSDK and likely would never be part of Studio anyway.
 
 On the issue of packaging, our build server simply invoked the package scripts that are already available as part of the source and are open source. The wrapper code simply did work to add the build to our DB and some other Appcelerator cloud type stuff. It's is little less than 500 lines of code and wouldn't be useful if we did OSS it.
 
-You have our moral and some limited financial support. I think that is reasonable.
+You have our moral and some limited financial support. I think that is reasonable."
 
 ### TideSDK Requests From Appcelerator
 
