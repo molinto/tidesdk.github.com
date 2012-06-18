@@ -62,7 +62,7 @@ Our requests for support were outlined in this document. Pledges of support from
 
 [Appcelerator Requests](https://github.com/TideSDK/TideSDK/wiki/Appcelerator-requests)
 
-In total, our requests consisted of the modification a license clause in TiStudio, startup costs totalling $2104.00 and an ongoing monthly cost of $797.00. We requested assistance for some technical consultation for our developers for a limited time until as our developers become more familiar with the code base. Our budget is attached in the request document above for clarity and breakdown of the numbers. Mostly this is to provide for our Continous Integration (ci) system and to use those same servers in a role for user network packaging.
+In total, our requests consisted of the modification a license clause in TiStudio, startup costs totalling $2104.00 and an ongoing monthly cost of $797.00. We requested assistance for some technical consultation for our developers for a limited time until our developers become more familiar with the code base. Our budget is attached in the request document above for clarity and breakdown of the numbers. Mostly this is to provide for our Continous Integration (ci) system and to use those same servers in a role for user network packaging.
 
 We had also asked that Appcelerator set aside funds that we could request on a case by case basis to offer bounties to accelerate important bug fixes and to encourage new developers into the code base.
 
