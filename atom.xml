@@ -4,7 +4,7 @@
   <title><![CDATA[TideSDK]]></title>
   <link href="http://TideSDK.github.com/atom.xml" rel="self"/>
   <link href="http://TideSDK.github.com/"/>
-  <updated>2012-06-17T23:50:19-03:00</updated>
+  <updated>2012-06-17T23:54:07-03:00</updated>
   <id>http://TideSDK.github.com/</id>
   <author>
     <name><![CDATA[David Pratt (for TideSDK)]]></name>
@@ -37,44 +37,24 @@
     <id>http://TideSDK.github.com/blog/2012/06/14/appcelerator-attempts-to-clarify-support-for-open-source-tidesdk</id>
     <content type="html"><![CDATA[<p>The TideSDK project received disappointing news today as Appcelerator clarified a position that left little in the way of support to enable the transition of the project. From the Titanium Desktop Transition Mailing List:</p>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>Hi everybody,
-</span><span class='line'>
-</span><span class='line'>Recently there has been some confusion around the legal status of the desktop codebase, and the official position of Appcelerator as it pertains to supporting the Tide SDK project.  I wanted to clarify both of those items, so that everyone knows where Appcelerator stands.
-</span><span class='line'>
-</span><span class='line'>The source code located at https://github.com/appcelerator/titanium_desktop is open source under the terms of the Apache 2.0 license.  As such, it can be forked, modified and redistributed under the terms of the Apache 2.0 license, and is not covered or impacted by the licenses applied to other Appcelerator products, such as Titanium Studio.  However, "Appcelerator Titanium" and the Titanium Ribbon logo are registered trademarks of Appcelerator, Inc., and may not be used by Tide SDK or in any derivative works.
-</span><span class='line'>
-</span><span class='line'>Appcelerator is focused on building our mobile platform, and our entire organization must be dedicated to that goal.  Thus, we cannot commit to any ongoing financial, administrative, or development support relationships. With that said, we do want to remain open to supporting this community on a case-by-case basis.  If there are specific requests that can be accommodated, we want to assist in those instances.  We would ask for those requests to be made of our developer relations team, which can be contacted via e-mail at community at appcelerator dot com.
-</span><span class='line'>
-</span><span class='line'>Hopefully this helps clarify our original position.  Please direct any questions or concerns to community at appcelerator dot com.
-</span><span class='line'>
-</span><span class='line'>Thanks,
-</span><span class='line'>
-</span><span class='line'>-Kevin
-</span><span class='line'>
-</span><span class='line'>-- 
-</span><span class='line'>Kevin Whinnery
-</span><span class='line'>Director of Developer Relations
-</span><span class='line'>Appcelerator, Inc.
-</span></code></pre></td></tr></table></div></figure>
+<p>&#8220;Hi everybody,</p>
 
+<p>Recently there has been some confusion around the legal status of the desktop codebase, and the official position of Appcelerator as it pertains to supporting the Tide SDK project.  I wanted to clarify both of those items, so that everyone knows where Appcelerator stands.</p>
+
+<p>The source code located at https://github.com/appcelerator/titanium_desktop is open source under the terms of the Apache 2.0 license.  As such, it can be forked, modified and redistributed under the terms of the Apache 2.0 license, and is not covered or impacted by the licenses applied to other Appcelerator products, such as Titanium Studio.  However, &#8220;Appcelerator Titanium&#8221; and the Titanium Ribbon logo are registered trademarks of Appcelerator, Inc., and may not be used by Tide SDK or in any derivative works.</p>
+
+<p>Appcelerator is focused on building our mobile platform, and our entire organization must be dedicated to that goal.  Thus, we cannot commit to any ongoing financial, administrative, or development support relationships. With that said, we do want to remain open to supporting this community on a case-by-case basis.  If there are specific requests that can be accommodated, we want to assist in those instances.  We would ask for those requests to be made of our developer relations team, which can be contacted via e-mail at community at appcelerator dot com.</p>
+
+<p>Hopefully this helps clarify our original position.  Please direct any questions or concerns to community at appcelerator dot com.</p>
+
+<p>Thanks,</p>
+
+<p>-Kevin</p>
+
+<p>&#8211;
+Kevin Whinnery
+Director of Developer Relations
+Appcelerator, Inc.&#8221;</p>
 
 <p>Needless to say this was discouraging news after we felt that we had shored the necessary legal, finanical support and technical consultation we had received earlier from Kevin. You can follow this thread at:</p>
 
@@ -82,27 +62,19 @@
 
 <p>Jeff Haynie, Appcelerator&#8217;s had intervened to advise the following:</p>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>Hey guys
-</span><span class='line'>
-</span><span class='line'>I'm not sure how much more clear we need to be around the license for desktop. The code in github is Apache 2. However Studio is not. Studio is not the issue here. It's not OSS and never has been. It is however free. But studio is not required for desktop and shouldn't need to be considered as part of the TideSDK and likely would never be part of Studio anyway.
-</span><span class='line'>
-</span><span class='line'>On the issue of packaging, our build server simply invoked the package scripts that are already available as part of the source and are open source. The wrapper code simply did work to add the build to our DB and some other Appcelerator cloud type stuff. It's is little less than 500 lines of code and wouldn't be useful if we did OSS it.
-</span><span class='line'>
-</span><span class='line'>You have our moral and some limited financial support. I think that is reasonable.</span></code></pre></td></tr></table></div></figure>
+<p>&#8220;Hey guys</p>
 
+<p>I&#8217;m not sure how much more clear we need to be around the license for desktop. The code in github is Apache 2. However Studio is not. Studio is not the issue here. It&#8217;s not OSS and never has been. It is however free. But studio is not required for desktop and shouldn&#8217;t need to be considered as part of the TideSDK and likely would never be part of Studio anyway.</p>
+
+<p>On the issue of packaging, our build server simply invoked the package scripts that are already available as part of the source and are open source. The wrapper code simply did work to add the build to our DB and some other Appcelerator cloud type stuff. It&#8217;s is little less than 500 lines of code and wouldn&#8217;t be useful if we did OSS it.</p>
+
+<p>You have our moral and some limited financial support. I think that is reasonable.&#8221;</p>
 
 <p>Our requests for support were outlined in this document. Pledges of support from Appclerator&#8217;s Kevin Whinnery came to use over an irc conversation on #tidesdk that was logged. The log is included.</p>
 
 <p><a href="https://github.com/TideSDK/TideSDK/wiki/Appcelerator-requests">Appcelerator Requests</a></p>
 
-<p>In total, our requests consisted of the modification a license clause in TiStudio, startup costs totalling $2104.00 and an ongoing monthly cost of $797.00. We requested assistance for some technical consultation for our developers for a limited time until as our developers become more familiar with the code base. Our budget is attached in the request document above for clarity and breakdown of the numbers. Mostly this is to provide for our Continous Integrations (ci) system and to use those same servers in a role for user network packaging.</p>
+<p>In total, our requests consisted of the modification a license clause in TiStudio, startup costs totalling $2104.00 and an ongoing monthly cost of $797.00. We requested assistance for some technical consultation for our developers for a limited time until as our developers become more familiar with the code base. Our budget is attached in the request document above for clarity and breakdown of the numbers. Mostly this is to provide for our Continous Integration (ci) system and to use those same servers in a role for user network packaging.</p>
 
 <p>We had also asked that Appcelerator set aside funds that we could request on a case by case basis to offer bounties to accelerate important bug fixes and to encourage new developers into the code base.</p>
 
