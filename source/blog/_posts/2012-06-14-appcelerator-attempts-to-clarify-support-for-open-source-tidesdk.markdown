@@ -84,7 +84,9 @@ Excerpt from the original pledge:
 
 ### Summary
 
-Depite the current circumstances, this transition is occuring. There is dedicated and growing support for TideSDK. It is our desire for the TideSDK project to work together with Appcelerator on a collaborative and cooperative basis. That said we are not receiving the assistance that was pledged. We have requested a meeting to properly resolve this. It is desirable for this to end with the support we need together with a announcement of support from Appcelerator and a joint commitment towards the goals of a successful transition.
+Depite the current circumstances, a transition is occuring. It is certainly not the transition envision or supported in the manner pledged. Despite this, there is dedicated and growing support for TideSDK. It is our desire for the TideSDK project to work together with Appcelerator on a collaborative and cooperative basis. We have requested a meeting to properly resolve this since there is stark contrast between words and actions to supply our team with the needed resources. 
+
+It is desirable for this to end with the support we need together with a announcement of support from Appcelerator and a joint commitment towards the goals of a successful transition. I will continue to press Jeff for a time to resolve this so that we may rest assured these commitments are met and our efforts are not compromised.
 
 
 
