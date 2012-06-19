@@ -4,7 +4,7 @@
   <title><![CDATA[TideSDK]]></title>
   <link href="http://TideSDK.github.com/atom.xml" rel="self"/>
   <link href="http://TideSDK.github.com/"/>
-  <updated>2012-06-19T16:47:47-03:00</updated>
+  <updated>2012-06-19T16:49:55-03:00</updated>
   <id>http://TideSDK.github.com/</id>
   <author>
     <name><![CDATA[David Pratt (for TideSDK)]]></name>
@@ -26,7 +26,7 @@
 
 <p><a href="https://github.com/TideSDK/TideSDK/downloads">https://github.com/TideSDK/TideSDK/downloads</a></p>
 
-<p>When TideSDK is released, there will be no changes in the API. If you have no experience the Titanium Desktop and would like to get started on a Desktop app today, you can begin with it (and transition to TideSDK as soon as we release in the very near future).</p>
+<p>When TideSDK is released, there will be no changes in the API. If you have no experience the Titanium Desktop and would like to get started on a Desktop app today, you can begin here (and transition to TideSDK as soon as we release it in the very near future).</p>
 
 <p>Come join us on #tidesdk on freenode.</p>
 ]]></content>
