@@ -15,6 +15,6 @@ While folks patiently await our first release candidate, we will continue to pro
 
 [https://github.com/TideSDK/TideSDK/downloads](https://github.com/TideSDK/TideSDK/downloads)
 
-When TideSDK is released, there will be no changes in the API. If you have no experience the Titanium Desktop and would like to get started on a Desktop app today, you can begin with it (and transition to TideSDK as soon as we release in the very near future).
+When TideSDK is released, there will be no changes in the API. If you have no experience the Titanium Desktop and would like to get started on a Desktop app today, you can begin here (and transition to TideSDK as soon as we release it in the very near future).
 
 Come join us on #tidesdk on freenode.
