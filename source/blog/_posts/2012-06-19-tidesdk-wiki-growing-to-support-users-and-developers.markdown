@@ -9,7 +9,7 @@ author: David Pratt
 
 Our Wiki located at [https://github.com/TideSDK/TideSDK/wiki](https://github.com/TideSDK/TideSDK/wiki) continues to grow by leaps and bounds. We are receiving a lot of great information from the community and ask that you continue to share any valuable documents or media you may encounter concerning Titanium Desktop (the legacy SDK that TideSDK is growing upon). Much of this knowledge will live on through TideSDK to support our future users.
 
-Join our mailing list at to identify your find at 
+Join our mailing list to identify your find at 
 
 [https://groups.google.com/forum/?fromgroups#!topic/tidesdk/B7k9KyVa3yg](https://groups.google.com/forum/?fromgroups#!topic/tidesdk/B7k9KyVa3yg)
 
