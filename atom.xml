@@ -4,7 +4,7 @@
   <title><![CDATA[TideSDK]]></title>
   <link href="http://TideSDK.github.com/atom.xml" rel="self"/>
   <link href="http://TideSDK.github.com/"/>
-  <updated>2012-06-21T15:24:46-03:00</updated>
+  <updated>2012-06-21T15:25:43-03:00</updated>
   <id>http://TideSDK.github.com/</id>
   <author>
     <name><![CDATA[David Pratt (for TideSDK)]]></name>
@@ -20,7 +20,7 @@
     <id>http://TideSDK.github.com/blog/2012/06/21/history-of-titanium-desktop-tags</id>
     <content type="html"><![CDATA[<p>Inheriting a project can make for some surprises. One recently for me has been reviewing the Tag history in Git. To my surprise, much of the tag history of Titanium Deskto is, well, just not available.</p>
 
-<p>Up until the time Appcelerator decided to discontinue the project, there was a progression of release candidates (RC&#8217;s) publicly to 1.2.0.RC6e. That said, where are the tags? Perhaps someone from Appcelerator can fully explain. Creating a tags a helpful legacy. I invite the maintainers to comment on this.</p>
+<p>Up until the time Appcelerator decided to discontinue the project, there was a progression of release candidates (RC&#8217;s) publicly to 1.2.0.RC6e. That said, where are the tags? Perhaps someone from Appcelerator can fully explain. Creating a tags are a helpful legacy. I invite the maintainers to comment on this.</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
