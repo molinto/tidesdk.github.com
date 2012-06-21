@@ -4,7 +4,7 @@
   <title><![CDATA[TideSDK]]></title>
   <link href="http://TideSDK.github.com/atom.xml" rel="self"/>
   <link href="http://TideSDK.github.com/"/>
-  <updated>2012-06-19T16:59:05-03:00</updated>
+  <updated>2012-06-21T10:38:09-03:00</updated>
   <id>http://TideSDK.github.com/</id>
   <author>
     <name><![CDATA[David Pratt (for TideSDK)]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Unit Testing Progressing with Drillbit]]></title>
+    <link href="http://TideSDK.github.com/blog/2012/06/21/unit-testing-progressing-with-drillbit/"/>
+    <updated>2012-06-21T10:26:00-03:00</updated>
+    <id>http://TideSDK.github.com/blog/2012/06/21/unit-testing-progressing-with-drillbit</id>
+    <content type="html"><![CDATA[<p>Our team has been working to get Drillbit running and sucessfully passing unit tests in anticipation of connecting to our Continuous Integration system late this week to executed the tests following commits from Git.</p>
+
+<p>There are a total of 4619 assertions made in the tests. Currently 85 tests remain broken but this is already much better from originally and we continue to progress. The failing support continues to be primarily in the language and process modules.</p>
+
+<p>The following is a screenshot of the unit testing and current status:</p>
+
+<p><img src="http://tidesdk.github.com/images/drillbit-06212112.png" alt="June 21 Drillbit results" /></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[TideSDK Wiki Growing to Support Users and Developers]]></title>

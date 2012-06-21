@@ -9,7 +9,7 @@
   <meta name="author" content="David Pratt (for TideSDK)">
 
   
-  <meta name="description" content="Hi Everyone, I know that many of you have been asking on the Google Transition group as to what is happening currently on the TideSDK (nee Titanium &hellip;">
+  <meta name="description" content="This is first public post on progress. With the blessing of Boydlee, I have assumed the Project Lead position. You will find me at https://github.com &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -64,6 +64,78 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/06/10/progress-report-1-june-10/">Progress Report 1 - June 10</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-10T17:23:00-03:00" pubdate data-updated="true">Jun 10<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>This is first public post on progress. With the blessing of Boydlee, I have assumed the Project Lead position. You will find me at https://github.com/fairwinds. After some delay, TideSDK is moving forward in a positive way with the code and also with the full support of the initiative from Appcelerator through Kevin Whinnery.</p>
+
+<p>I have sought commitments from Appcelerator for their support including specific legal, financial and technical assistance (when needed). I was happy this past week to have received this. I have been advised that Nina, Appcelerator&#8217;s dedicated legal support is working actively to immediately resolve the issue posed by the TiStudio (that impacted the TiDesktop and Kroll projects that we are inheriting). This has been a barrier to moving forward and a high priority request that I expect to see fulfilled shortly.</p>
+
+<p>The short term plan is below. We are focusing here.</p>
+
+<ul>
+<li>Verify existing builds and build instructions on supported platforms. Tool chains need to be updated. Seek additional developer support once we have verified build processes to get people started easily.</li>
+<li>Establish our CI capacity and automation.</li>
+<li>Rename the core project in the code retaining the Ti namespace.
+Ti === Titanium === TideSDK</li>
+<li>Test and release a candidate at 1.2.1.RC1 that will be beginning of TideSDK line from Titanium Desktop inheritance</li>
+<li>Update libraries incrementally that TideSDK relies upon (release frequently)</li>
+<li>Create a branch for OSX sandboxing initiatives. (high priority)</li>
+<li>Cherry pick priority bugs from JIRA and begin issue tracking process through Github which has a low barrier to use and where our project lives. JIRA will be used as resource only for historical context.</li>
+</ul>
+
+
+<p>First, welcome https://github.com/nazcasistemas to the development team who has already shown himself to be a dedicated team developer. We have dedicated long hours to ensure we are able to successfully build on all platforms (MacOSX, Windows and Linux). This is an important first milestone that we achieved recently and in a relatively short period of time between us. We have documented progress on a wiki at https://github.com/TideSDK/TideSDK/wiki. Josh has also been with us the past days giving us further insight into the code. Josh has also recently been successful on MacOSX Lion which is another important milestone and has been exploring Embedded Chromium for the project.</p>
+
+<p>At this point, we are working through Drillbit tests to establish the quality of the builds and what may need some immediate attention.
+Initially, we have a small developer group and we want to expand this shortly. As soon as we have verified, tested, and have documented our build instructions and laid the groundwork, we will begin soliciting more help from the community. We do not want a circumstance where help arrives and we are not prepared to get people going or fully understand our needs.</p>
+
+<p>I have asked Appcelerator to transfer the TiDesktop and Kroll repos to us directly. This will retain all followers, forks, pull requests and such. I am hoping to have this happen immediately as we will be going through a process of renaming code components to rebrand. Rest assured the namespace will not change. That is Ti === Titanium === TideSDK so your projects should be unimpaired by what we are doing.</p>
+
+<p>Sharry at https://github.com/molinto has pledged ongoing support on the communications and marketing side and we have in a short time identified priorities and taken stock of what we have. https://github.com/TideSDK/TideSDK/wiki/Communications-Strategy</p>
+
+<p>The code base is very large and complex and requires a depth of understanding. For folks anxious to dig in the first step is a proper study of the code which is hosted at https://github.com/TideSDK. I am confident we will be able to extend our small team to meet the challenge.</p>
+
+<p>In addition, we are working to determine builds on updated toolchains. There is currently a bug with scons that makes building on MSVC10 Express a problem. I am working on a bug fix to send on to the scons project when complete. Once this is fixed, we will be able to build using the current defacto compiler for Windows. That said, we already building on the older tools for Windows.</p>
+
+<p>Next, we will be setting up automated build processes on a Continuous Integration (CI) system. I will be making my request to Kevin on server instances for various platforms to support the system. This is a critical need for the project as we must support 32 and 64 bit platforms and multiple operating systems. We must know what is happening at all times with the builds when there are changes to the code base.</p>
+
+<p>This message is long and much more to say but out of time. Please follow our developments and we will keep appraised. Our objective is to release quickly and often. If our build processes and testing check out well and renaming exercise goes as expected, an early release should be available in the next week. Please stay tuned.</p>
+
+<p>Regards,
+David</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -317,118 +389,9 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/03/05/5th-march-2012-minutes/">5th March 2012 Minutes</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-03-05T14:44:00-04:00" pubdate data-updated="true">Mar 5<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h2>Tide SDK Leadership Group Meeting - Agenda</h2>
-
-<h3>Project Name</h3>
-
-<ul>
-<li>Discussions were made around the name of the project, and the group. &#8220;Tide&#8221; was the clear winner from the survey of names suggested by the community. After some deliberation and decisions revolving around other similar project names on the web and how we could differentiate ourselves - plus a check on domain availability - it was decided and agreed by majority that the new name of the product and group would be called &#8220;Tide SDK&#8221;.</li>
-<li>As agreed by the group, all correspondence and documentation will refer to the product by its full name of &#8220;Tide SDK&#8221;. In speech, conversation etc, this can also referred to as &#8220;Tide&#8221;.</li>
-<li>Sharry Stowell purchased and is holding for the group the domains &#8220;tidesdk.org&#8221; and &#8220;tidesdk.com&#8221;. Our main domain will be the .ORG. The .COM will be redirected to the .ORG.</li>
-<li>Our group logo will be created as part of our initial interaction with the community. We will open a competition for the best logo. Details TBC.</li>
-</ul>
-
-
-<h3>Website Development &amp; Community Co-ordinator</h3>
-
-<ul>
-<li>Sharry Stowell nominated. All seconded</li>
-</ul>
-
-
-<h3>Project Management Requirements</h3>
-
-<ul>
-<li>All code to be stored in a GitHub Open Source account. Sharry will organize this account.</li>
-<li>Group decided on Atlassian, which includes project management plus Jira, etc. Used by a lot of open source groups. Sharry to organize - we will try to get a free account as we are an open source group.</li>
-<li>OSQA decided upon as the open source Q&amp;A system, which is similar to Appcelerator&#8217;s and will hopefully ease the transition of existing Q&amp;A from that site to ours.</li>
-</ul>
-
-
-<h3>Server side languages &amp; Project Architecture</h3>
-
-<ul>
-<li>Group is divided on the continued inclusion or removal of SS languages.</li>
-<li>The biggest bone of contention for not including them is that some developers rely on them for their current projects. According to Kevin, based on off-the-cuff knowledge, the amount of users actually using these packages is fairly small.</li>
-<li>Alternatively, as a group most feel we do not have the capacity to support 4x languages - JavaScript, Python, PHP &amp; Ruby.</li>
-<li>A suggested middle ground was keeping Python support only.</li>
-<li>Another suggestion was that external language support (re: Python)
-should be made as an extension and kept out of the product core.</li>
-<li>Suggestions were made about the implementation of Node.JS as a core piece of the project. Node.JS would allow us to have a built-in framework for native extensions in C/C++, plus has a large community and a bunch of existing extensions we can leverage. It has a large set of built in API&#8217;s we wouldn&#8217;t have to rewrite (e.g. file system). It has a built
-in package manager. Most of the group seems in favour of Node.JS with a bit of exploring.</li>
-</ul>
-
-
-<h3>Moving To Chromium (Chrome Embedded) or Keeping Webkit</h3>
-
-<ul>
-<li>Generally considered a good idea from an administration standpoint. The more bits we can &#8220;black box&#8221; then the more time we have to focus on core code.</li>
-<li>As Kevin pointed out, one of Appcelerator&#8217;s biggest headaches wascontinually needing to upgrade and package the custom WebKit build with Titanium Desktop.</li>
-<li>In saying, we need to first test Chrome Embed</li>
-</ul>
-
-
-<h3>Architecture Submissions</h3>
-
-<ul>
-<li>The group is divided along some lines of architecture, and the system as a whole needs to have some serious thought.</li>
-<li>On that note, it was decided and agreed that everyone in the group who has firm ideas about architecture should document, with diagrams wherever possible, their ideas of how to architect the whole solution.</li>
-<li>These submissions are to be made to the group and we will make further decisions based on them when we meet next.</li>
-</ul>
-
-
-<h3>Licencing</h3>
-
-<ul>
-<li>There is some licencing section of the Ti Studio licence that may interfere with the Apache licences that govern the rest of the existing Ti Desktop et al codebase.</li>
-<li>David is to email the highlighted sections of the licence agreements in question to Boydlee and I will interface with Appcelerator directly to get them amended or get us an exception.</li>
-</ul>
-
-
-<h3>Date of the Next Meeting</h3>
-
-<ul>
-<li>Monday, 12th of March. 2012</li>
-</ul>
-
-
-<p><a href="http://tidesdk.github.com/downloads/TideSDK-Minutes-05032012.pdf">Download Minutes PDF (~70K)</a></p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
+    
+      <a class="prev" href="/blog/page/3/">&larr; Older</a>
     
     <a href="/blog/archives">Blog Archives</a>
     
@@ -441,6 +404,10 @@ in package manager. Most of the group seems in favour of Node.JS with a bit of e
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/06/21/unit-testing-progressing-with-drillbit/">Unit Testing Progressing with Drillbit</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2012/06/19/tidesdk-wiki-growing-to-support-users-and-developers/">TideSDK Wiki Growing to Support Users and Developers</a>
@@ -456,10 +423,6 @@ in package manager. Most of the group seems in favour of Node.JS with a bit of e
     
       <li class="post">
         <a href="/blog/2012/06/13/crowdsourcing-collection-of-legacy-documents-and-media/">Crowdsourcing Collection of Legacy Documents and Media</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/06/10/progress-report-1-june-10/">Progress Report 1 - June 10</a>
       </li>
     
   </ul>
