@@ -37,7 +37,7 @@
   <header role="banner"><hgroup>
   <h1><a href="/">TideSDK</a></h1>
   
-    <h2>The new home of Titanium Desktop ...</h2>
+    <h2>Desktop App development for Mac, Windows and Linux. HTML5, JavaScript and CSS3 plus the power of Python, Ruby or PHP when you need it.</h2>
   
 </hgroup>
 
@@ -289,6 +289,203 @@
 
     </article>
   
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/06/10/progress-report-1-june-10/">Progress Report 1 - June 10</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-10T17:23:00-03:00" pubdate data-updated="true">Jun 10<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>This is first public post on progress. With the blessing of Boydlee, I have assumed the Project Lead position. You will find me at https://github.com/fairwinds. After some delay, TideSDK is moving forward in a positive way with the code and also with the full support of the initiative from Appcelerator through Kevin Whinnery.</p>
+
+<p>I have sought commitments from Appcelerator for their support including specific legal, financial and technical assistance (when needed). I was happy this past week to have received this. I have been advised that Nina, Appcelerator&#8217;s dedicated legal support is working actively to immediately resolve the issue posed by the TiStudio (that impacted the TiDesktop and Kroll projects that we are inheriting). This has been a barrier to moving forward and a high priority request that I expect to see fulfilled shortly.</p>
+
+<p>The short term plan is below. We are focusing here.</p>
+
+<ul>
+<li>Verify existing builds and build instructions on supported platforms. Tool chains need to be updated. Seek additional developer support once we have verified build processes to get people started easily.</li>
+<li>Establish our CI capacity and automation.</li>
+<li>Rename the core project in the code retaining the Ti namespace.
+Ti === Titanium === TideSDK</li>
+<li>Test and release a candidate at 1.2.1.RC1 that will be beginning of TideSDK line from Titanium Desktop inheritance</li>
+<li>Update libraries incrementally that TideSDK relies upon (release frequently)</li>
+<li>Create a branch for OSX sandboxing initiatives. (high priority)</li>
+<li>Cherry pick priority bugs from JIRA and begin issue tracking process through Github which has a low barrier to use and where our project lives. JIRA will be used as resource only for historical context.</li>
+</ul>
+
+
+<p>First, welcome https://github.com/nazcasistemas to the development team who has already shown himself to be a dedicated team developer. We have dedicated long hours to ensure we are able to successfully build on all platforms (MacOSX, Windows and Linux). This is an important first milestone that we achieved recently and in a relatively short period of time between us. We have documented progress on a wiki at https://github.com/TideSDK/TideSDK/wiki. Josh has also been with us the past days giving us further insight into the code. Josh has also recently been successful on MacOSX Lion which is another important milestone and has been exploring Embedded Chromium for the project.</p>
+
+<p>At this point, we are working through Drillbit tests to establish the quality of the builds and what may need some immediate attention.
+Initially, we have a small developer group and we want to expand this shortly. As soon as we have verified, tested, and have documented our build instructions and laid the groundwork, we will begin soliciting more help from the community. We do not want a circumstance where help arrives and we are not prepared to get people going or fully understand our needs.</p>
+
+<p>I have asked Appcelerator to transfer the TiDesktop and Kroll repos to us directly. This will retain all followers, forks, pull requests and such. I am hoping to have this happen immediately as we will be going through a process of renaming code components to rebrand. Rest assured the namespace will not change. That is Ti === Titanium === TideSDK so your projects should be unimpaired by what we are doing.</p>
+
+<p>Sharry at https://github.com/molinto has pledged ongoing support on the communications and marketing side and we have in a short time identified priorities and taken stock of what we have. https://github.com/TideSDK/TideSDK/wiki/Communications-Strategy</p>
+
+<p>The code base is very large and complex and requires a depth of understanding. For folks anxious to dig in the first step is a proper study of the code which is hosted at https://github.com/TideSDK. I am confident we will be able to extend our small team to meet the challenge.</p>
+
+<p>In addition, we are working to determine builds on updated toolchains. There is currently a bug with scons that makes building on MSVC10 Express a problem. I am working on a bug fix to send on to the scons project when complete. Once this is fixed, we will be able to build using the current defacto compiler for Windows. That said, we already building on the older tools for Windows.</p>
+
+<p>Next, we will be setting up automated build processes on a Continuous Integration (CI) system. I will be making my request to Kevin on server instances for various platforms to support the system. This is a critical need for the project as we must support 32 and 64 bit platforms and multiple operating systems. We must know what is happening at all times with the builds when there are changes to the code base.</p>
+
+<p>This message is long and much more to say but out of time. Please follow our developments and we will keep appraised. Our objective is to release quickly and often. If our build processes and testing check out well and renaming exercise goes as expected, an early release should be available in the next week. Please stay tuned.</p>
+
+<p>Regards,
+David</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/04/10/whats-happening-10th-april/">What&#8217;s Happening? - 10th April</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-10T16:49:00-03:00" pubdate data-updated="true">Apr 10<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Hi Everyone,</p>
+
+<p>I know that many of you have been asking on the Google Transition group as to what is happening currently on the TideSDK (nee Titanium Desktop) front. Apologies for not being able to clearly state where we are at before, but I&#8217;m sure you can appreciate that there is a lot of things to take over from Appcelerator, and many decisions to be made regarding TideSDK moving forward.</p>
+
+<p>Here&#8217;s the major points we are currently working on:</p>
+
+<p>We&#8217;ve requested Jira Access and all the Q&amp;A data relating to Titanium Desktop from Appcelerator. Once we have this access/data, we will start filtering all the bug list in order of priority and we will be asking you, the community, to step forward and help us fix these issues.</p>
+
+<p>The current branch of Titanium Desktop is available here https://github.com/TideSDK/titanium_desktop. Please feel free to fork this repo, and make bug fixes now in preparation for when we have the Jira data. We&#8217;ll be trying to keep the process of merging your changes as seamless as possible - that means simply you fork the code, make the change in your own repo, and create a pull request for us listing the Jira Bug ID and what you did to fix it. We don&#8217;t have the manpower to bug-test every single pull request, so we&#8217;ll be relying on the community to do that thoroughly during any release cycle.</p>
+
+<p>About half of the team are currently investigating how to get the WebKit upgraded (particularly on Windows) as a matter of priority. If you want to help with this, please comment on this post and I&#8217;ll get you in touch with Burak and a couple of the guys who are leading that.</p>
+
+<p>The rest of us are currently looking into building a prototype of how we see TideSDK evolving into a new product in the future. Basically, after looking through many, many options, this is revolving around the use of Chromeless, coupled with NodeJS. This is going well for a prototype investigation stage and we already have a sample application (just hanging off Webian, a sample Chromeless app), that:</p>
+
+<ul>
+<li>Runs the standard Chromeless CommonJS libraries</li>
+<li>Runs a custom set of &#8220;Tide&#8221; CommonJS libraries</li>
+<li>Runs a compiled version of node.js and executes a sample node.js script (called node.js which launches a HTTP server instance on port 8000 and returns some HTML)</li>
+<li>Bundles a basic OSX package, whereby NodeJs and the application itself are executed by a bash script that I packaged up into an application file using another bash script - basically when we would build a &#8216;package&#8217; or &#8216;msi&#8217; for a user, we&#8217;re just running some scripts that bundle up our code, Xulrunner and a few other launch scripts together.</li>
+</ul>
+
+
+<p>We will, as a leadership group, be discussing this approach over the next couple of days with the intention of setting out a series of 0.1 release goals. These will be the features that will be available in our very first release, wich is going to be a very early alpha with a limited feature set, but it will be enough to provide a prototype. I will post those 0.1 release goals publicly once we have group agreement and push the code into a new GIT repo and ask the community to start providing feedback.</p>
+
+<p>Looking forward to your comments over the coming days,</p>
+
+<p>Boydlee</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/03/23/logo-competition/">Logo Competition</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-23T15:50:00-03:00" pubdate data-updated="true">Mar 23<span>rd</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h2>A New Brand</h2>
+
+<p>As we are starting afresh with the Titanium Desktop project, we need a few items to get us going. Firstly, the development team got together and decided on the ‘TideSDK’ (see minutes of the meeting here). The next step is on the agenda is the logo, this we be used in the application, on the website, any future mailings &amp; stationary.</p>
+
+<p>What better place to get involved in a community driven project than designing a logo! The competition will run from 23 March 2012 00:01 to 23 April 2012 23:59, any submission between this time will be put to a public vote by the community on the 16th April 2012 &amp; from those results, a final three will be chosen. On the 25 April 2012 the development team will choose a winning entry! Please see the rules below:</p>
+
+<h2>Terms &amp; conditions</h2>
+
+<ul>
+<li>The contest will run from 23 March 2012 00:01 (GMT) to 23 April 2012 23:59 (GMT)</li>
+<li>By submitting an entry to the contest, you agree to the competition rules;
+
+<ul>
+<li>All submissions MUST be sent to admin[at]tidesdk[dot].org;</li>
+<li>The competition is open to all;</li>
+<li>Multiple submissions are encouraged;</li>
+<li>Only 1 community/public vote allowed by IP address;</li>
+<li>The design must be in a scalable vector format;</li>
+<li>The development team will analyze the final 3 entries based on quality, design and overall community appeal;</li>
+<li>The winner will be decided by the development team exclusively;</li>
+<li>The judging period will be on 25 April 2012 (after the competition ends);</li>
+<li>The winner be relinquish all rights of the design &amp; hand them over to the community project lead;</li>
+<li>The winner will be notified by email &amp; public announced in the TideSDK blog;</li>
+<li>All questions should be directed at admin[at]tidesdk[dot]org</li>
+</ul>
+</li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -323,6 +520,18 @@
         <a href="/blog/2012/06/13/crowdsourcing-collection-of-legacy-documents-and-media/">Crowdsourcing Collection of Legacy Documents and Media</a>
       </li>
     
+      <li class="post">
+        <a href="/blog/2012/06/10/progress-report-1-june-10/">Progress Report 1 - June 10</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/04/10/whats-happening-10th-april/">What&#8217;s Happening? - 10th April</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/03/23/logo-competition/">Logo Competition</a>
+      </li>
+    
   </ul>
 </section>
 
@@ -334,7 +543,7 @@
   </ul>
   <script type="text/javascript">
     $.domReady(function(){
-      getTwitterFeed("tidesdk", 4, false);
+      getTwitterFeed("tidesdk", 8, false);
     });
   </script>
   <script src="/javascripts/twitter.js" type="text/javascript"> </script>
